@@ -64,16 +64,16 @@ input[type=submit]{
 /*Mediaqueris para Tablets*/
 @media only screen and (max-width:980px){
     .contactos{
-        width: 90%;
+        width: 80%;
     }
 }
 /*Mediaqueris para Celulares*/
 @media only screen and (max-width:480px){
     .contactos{
-        width: 98%;
+        width: 80%;
     }
     .contact{
-        width: 100%;
+        width: 80%;
     }
 }
 
