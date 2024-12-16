@@ -15,7 +15,7 @@
     padding: 30px;
     text-shadow: 5px 5px 5px #615f5f;
 }
-.contactos{
+.amistades{
     width: 80%;
     margin: auto;
     display: flex;
@@ -63,13 +63,13 @@ input[type=submit]{
 }
 /*Mediaqueris para Tablets*/
 @media only screen and (max-width:980px){
-    .contactos{
+    .amistades{
         width: 80%;
     }
 }
 /*Mediaqueris para Celulares*/
 @media only screen and (max-width:480px){
-    .contactos{
+    .amistades{
         width: 80%;
     }
     .contact{
