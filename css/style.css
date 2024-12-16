@@ -126,7 +126,7 @@ article img{
 /*Mediaqueris para Tablets*/
 @media only screen and (max-width:980px){
     .redes{
-        width: 90%;
+        width: 80%;
     }
     header{
         width: 100%;
@@ -141,7 +141,7 @@ article img{
 /*Mediaqueris para Celulares*/
 @media only screen and (max-width:480px){
     .redes{
-        width: 98%;
+        width: 90%;
     }
     .fondo-banner{
         width: 100%;
