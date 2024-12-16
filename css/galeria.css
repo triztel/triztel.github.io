@@ -13,6 +13,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+input[type=submit] {
+    width: 200px;
+    background: black;
+    padding: 10px;
+    color: white;
+}
 .galeria input{
  background: rgb(230, 118, 155);
  padding: 5px;
@@ -29,4 +35,19 @@ aside{
 }
 .counter-aside{
     width: 70%;
+}
+/*Mediaqueris para Tablets*/
+@media only screen and (max-width:980px){
+    .galeria{
+        width: 80%;
+    }
+}
+/*Mediaqueris para Celulares*/
+@media only screen and (max-width:480px){
+    .galeria{
+        width: 80%;
+    }
+    .contact{
+        width: 80%;
+    }
 }
