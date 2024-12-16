@@ -1,0 +1,32 @@
+.fondo-galeria{
+    padding: 20px;
+    background: url(../img/5183729.jpg);
+}
+.text-galeria{
+    text-align: center;
+    margin-bottom:10px ;
+}
+.galeria{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.galeria input{
+ background: rgb(230, 118, 155);
+ padding: 5px;
+ width: 200px;
+}
+aside{
+    width: 350px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.img-aside{
+    width: 90%;
+    display: block;
+}
+.counter-aside{
+    width: 70%;
+}

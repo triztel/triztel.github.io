@@ -1,0 +1,29 @@
+#menu,#check{
+    display:none;
+}
+#check:checked ~ .botonera{
+    left: 0%;
+    transition: 0.5s ease-out;
+}
+/*Mediaqueris para tablets*/
+@media only screen and (max-width:980px){
+    #menu{
+        display: block;
+        float: right;
+        font-size: 24px;
+        margin: 10px;
+    }
+    .botonera{
+        float:none;
+        position: relative;
+        left:-100%;
+        transition: 0.5s ease-out;
+    }
+    .botonera ul{
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        top:70px;
+        background: rgb(5, 5, 5);
+    }
+}

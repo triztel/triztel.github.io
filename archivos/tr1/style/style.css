@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: tahoma;
+    background: rgb(241, 168, 168);
+}
+
+header{
+    width: 1000px;
+    background:rgb(249, 251, 252);
+    margin: auto;
+    overflow: hidden;
+}
+
+#logo img{
+    float:left;
+}
+
+#redes img{
+    float:right;
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 35px;
+}
+
+/*estilos para el nav*/
+#botonera{
+    width: 1000px;
+    margin: auto;
+    background: rgb(253, 115, 138);
+}
+
+#botonera ul{
+    list-style: none;
+}
+
+#botonera li{
+    display: inline-block;
+}
+
+#botonera a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+#botonera a:hover{
+    background: black;
+}
+
+main img{
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+section{
+    width: 1000px;
+    margin: auto;
+    background: rgb(243, 242, 241);
+    overflow: hidden;
+    padding: 10px;
+}
+
+article{
+    width: 650px;
+    float: left;
+}
+
+aside{
+    float: right;
+    width: 300px;
+}
+
+h2,h3{
+    text-align: center;
+    margin-bottom: 10px;
+    background: palevioletred;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+img{
+    margin-top: 10px;
+}
+/*estilos para el Footer*/
+footer{
+    width: 1000px;
+    margin: auto;
+    background: rgb(253, 115, 138);
+    color: white;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
+#botonera2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#botonera2 ul{
+    list-style: none;
+}
+
+#botonera2 li{
+    display: inline-block;
+}
+
+#botonera2 a{
+    text-decoration: none;
+    color: rgb(8, 8, 1);
+}
+
+/*estilos para la galeria*/
+
+.galeria{
+    width: 220px;
+    background: darkgray;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.galeria img{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    background: black;
+    border:0px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+}

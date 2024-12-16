@@ -1,0 +1,27 @@
+.fondo-portafolio{
+    padding: 20px;
+    width: 100%;
+    background: url(../img/3.jpg);
+}
+.text-portafolio{
+    padding:10px;
+    text-align: center;
+}
+section{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+}
+.fondo-portafolio img{
+    padding: 10px;
+    border-radius: 30px;
+    border: 10px solid rgb(230, 165, 205);
+    width: 80%;
+}
+.fondo-portafolio hr{
+    border: 1px solid rgb(0, 0, 0);
+}
+.fondo-portafolio h3{
+    text-align: center;
+}

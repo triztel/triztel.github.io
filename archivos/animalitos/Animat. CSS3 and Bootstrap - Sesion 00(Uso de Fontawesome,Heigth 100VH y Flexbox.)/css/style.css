@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: tahoma;
+}
+header{
+    position: fixed;
+    z-index: 10000000;
+    width: 100%;
+    height: 70px;
+    background: black;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    color: white;
+    float: left;
+    margin: 10px;
+}
+.botonera{
+    float: right;
+}
+.botonera ul{
+    display:flex;
+    list-style: none;
+}
+.botonera a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+/*Estilos para el Banner*/
+.banner{
+    position: relative;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.cont-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.cont-banner h2{
+    margin-bottom: 10px;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+button{
+    background: black;
+    padding: 10px 20px;
+    color: white;
+}
+main{
+    width: 80%;
+    margin: 20px auto;
+}
+main h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.img-responsive{
+    width: 400px;
+    max-width: 100%;
+    display: block;
+    margin:10px auto;
+}
+section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    width: 300px;
+}
+article h3{
+    text-align: center;
+}
+/*Estilo para Valores*/
+.fondo-aside{
+    margin: 20px 0px;
+}
+.text-aside{
+    text-align: center; 
+    margin-bottom: 10px;
+}
+.asides{
+    width: 80%;
+    margin:10px  auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+aside{
+    width: 300px;
+}
+aside h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ico{
+    font-size: 30px;
+    color: purple;
+}
+.vl{
+    font-size: 40px;
+    color: brown;
+}
+.fondo-adoptame{
+    background: skyblue;
+    padding: 20px 0px;
+}
+.text-adoptame{
+    text-align: center;
+    color: yellow;
+    margin-bottom: 10px;
+}
+.pets{
+    width: 80%;
+    margin: auto;
+    /*Estilos Flexbox*/ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pet{
+    width: 220px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.img-pet:hover{
+    transform:rotate(-3deg);
+    transition: 0.5s ease-out;
+}
+.img-pet{
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    transition:0.5s ease-out;
+}
+.fondo-contactos{
+    padding: 20px 0px;
+}
+.text-contactos{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contactos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.contact{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.contact h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.listas li{
+    list-style-image: url(../img/vineta.png);
+    font-size: 18px;
+    line-height: 30px;
+}
+.fondo-footer{
+    background: black;
+    padding: 20px 0px;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer{
+    width: 350px;
+    margin-bottom:10px ;
+    color: white;
+}
+footer p{
+    text-align: center;
+}
+.pie{
+    background: darkslategrey;
+    padding: 20px 0px;
+}
+.pie p{
+    text-align: center;
+    color: white;
+}
+#check,#menu{
+    display: none;
+}
+#check:checked ~.botonera{
+    left:0%;
+    transition: 0.5s ease-out;
+}
+/*Mediaqueris para Tablets*/
+@media only screen and (max-width:980px){
+    .container, main,section, .aside, .pets, .contactos, .footer{
+        width: 90%;
+    }
+    #menu{
+        display:block;
+        float:right;
+        font-size: 24px;
+        margin: 10px;
+    }
+    .botonera{
+        float:none;
+        position: relative;
+        left:-120%;
+        transition: 0.5s ease-out;
+    }
+    .botonera ul{
+        position: absolute;
+        flex-direction:column;
+        width:100% ;
+        top:70px;
+        background: black;
+    }
+}
+/*Mediaqueris para Celulares*/
+@media only screen and (max-width:480px){
+    .container,main,section,.aside,.pets,.contactos, .footer{
+        width: 95%;
+    }
+    article,aside, .pet, .contact{
+        width: 100%;
+    }
+}

@@ -1,0 +1,80 @@
+.fondo-contacto{
+    background: url(../img/5183729.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px 0px;
+}
+.text-contactos{
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    color: #030303;
+    padding: 30px;
+    text-shadow: 5px 5px 5px #615f5f;
+}
+.contactos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact h3{
+    color: rgb(5, 0, 0);
+    margin-bottom: 10px;
+    width: 90%;
+}
+.formulario{
+    background: rgb(212, 159, 195);
+    color: white;
+    padding: 10px;
+}
+.formulario h3{
+    text-align: center;
+    color: black;
+}
+.contact h3{
+    text-align: center;
+}
+.contact p{
+    color: black;
+}
+input[type=text].input[type=number]{
+    width: 100%;
+    height: 35px;
+}
+input[type=text].input[type=number]:focus{
+    outline: 0 none;
+}
+textarea{
+    width: 100%;
+}
+textarea:focus{
+    outline: 0 none;
+}
+input[type=submit]{
+    width: 300px;
+    background: black;
+    padding: 10px;
+    color: white;
+}
+/*Mediaqueris para Tablets*/
+@media only screen and (max-width:980px){
+    .contactos{
+        width: 90%;
+    }
+}
+/*Mediaqueris para Celulares*/
+@media only screen and (max-width:480px){
+    .contactos{
+        width: 98%;
+    }
+    .contact{
+        width: 100%;
+    }
+}
+
+

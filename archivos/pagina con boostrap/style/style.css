@@ -1,0 +1,31 @@
+header{
+    background: url(../img/WhatsApp\ Image\ 2022-10-27\ at\ 6.47.13\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 400px;
+    height: -90px;
+}
+header input{
+    width: 400px;
+    background: green;
+    color: white;
+    border-color: aliceblue;
+}
+body{
+    background: url(../img/megapost-fondos-pantalla-full-taringa-wallpaper-144790549.jpg);
+}
+article img{
+    width: 250px;
+    height: -100px;
+}
+.galeria h2{
+    padding: 40px;
+}
+.contactos h2{
+    padding:40px ;
+}
+.footer{
+    background: black;
+}

@@ -1,0 +1,88 @@
+.fondo-footer{
+    background: url(../img/banner.jpeg);
+    padding: 20px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer{
+    width: 270px;
+    margin-bottom: 10px;
+    color: white;
+}
+.footer h3{
+    color:black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pie p{
+    text-align: center;
+    margin-bottom: -15px;
+    margin: 20px;
+}
+.auspiciadores li{
+    line-height: 30px;
+}
+.social{
+    text-align: center;
+}
+.ico{
+    font-size: 18px;
+    background: black;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+}
+.social{
+    margin-top: 30px;
+}
+.fondo-pies{
+background: black;
+padding: 20px 0px;
+width: 100%;
+}
+.pies{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pie{
+    text-align: center;
+    color: white;
+
+}
+/*Mediaqueris para Tablets*/
+@media only screen and (max-width:980px){
+    .footer, .pies{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    footer,.pie{
+        width: 100%;
+        text-align: center;
+    }
+}
+/*Mediaqueris para Celulares*/
+@media only screen and (max-width:480px){
+    .contactos{
+        width: 98%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .listas li{
+        margin-left: 40px;
+    }
+}
+
+
+

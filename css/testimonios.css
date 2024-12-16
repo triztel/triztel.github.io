@@ -1,0 +1,50 @@
+.fondo-testimonio{
+width: 100%;
+padding: 10px;
+background: rgb(165, 216, 236);
+}
+.fondo-testimonio h2{
+    text-align: center;
+    font-size: 30px;
+    color: #030303;
+    padding: 30px;
+    text-shadow: 5px 5px 5px #615f5f;
+}
+.test{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /*Estilos Flexbox*/ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.testi{
+    width: 220px;
+    text-align: center;
+}
+.img-test1:hover,.img-test2:hover,.img-test3:hover{
+    transform:rotate(-3deg);
+    transition: 0.5s ease-out;
+}
+.img-test1{
+    width: 250px;
+    height: 220px;
+    border-radius: 50%;
+    border: 7px solid rgb(121, 230, 127);
+    transition:0.5s ease-out;
+}
+.img-test2{
+    width: 250px;
+    height: 220px;
+    border-radius: 50%;
+    border: 7px solid rgb(121, 230, 127);
+    transition:0.5s ease-out;
+}
+.img-test3{
+    width: 250px;
+    height: 220px;
+    border-radius: 50%;
+    border: 7px solid rgb(121, 230, 127);
+    transition:0.5s ease-out;
+}
